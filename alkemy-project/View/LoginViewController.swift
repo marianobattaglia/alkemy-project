@@ -2,7 +2,7 @@
 //  LoginViewController.swift
 //  alkemy-project
 //
-//  Created by Mariano Battaglia on 21/02/2022.
+//  Created by Mariano Battaglia on 21/02/2022
 //
 
 import UIKit
