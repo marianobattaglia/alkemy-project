@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		878699CC27CAC11F00115726 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 878699CB27CAC11F00115726 /* Alamofire */; };
+		8787941227C59231007A5003 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8787941127C59231007A5003 /* TabBarViewController.swift */; };
+		8787944027C5BA18007A5003 /* MoviesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8787943E27C5BA18007A5003 /* MoviesTableViewCell.swift */; };
+		8787944127C5BA18007A5003 /* MoviesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8787943F27C5BA18007A5003 /* MoviesTableViewCell.xib */; };
+		878F687C27C6E99700E450E5 /* FavoritesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878F687A27C6E99700E450E5 /* FavoritesTableViewCell.swift */; };
+		878F687D27C6E99700E450E5 /* FavoritesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 878F687B27C6E99700E450E5 /* FavoritesTableViewCell.xib */; };
+		878F688027C6F36B00E450E5 /* MoviesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878F687E27C6F36B00E450E5 /* MoviesTableViewController.swift */; };
+		878F688127C6F36B00E450E5 /* MoviesTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 878F687F27C6F36B00E450E5 /* MoviesTableViewController.xib */; };
+		878F688427C6F40700E450E5 /* FavoritesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878F688227C6F40700E450E5 /* FavoritesTableViewController.swift */; };
+		878F688527C6F40700E450E5 /* FavoritesTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 878F688327C6F40700E450E5 /* FavoritesTableViewController.xib */; };
+		878F688827C6F4C700E450E5 /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878F688627C6F4C700E450E5 /* MovieDetailViewController.swift */; };
+		878F688927C6F4C700E450E5 /* MovieDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 878F688727C6F4C700E450E5 /* MovieDetailViewController.xib */; };
+		878F688D27C70E9500E450E5 /* MoviesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878F688C27C70E9500E450E5 /* MoviesViewModel.swift */; };
+		87A1FC4A27C457570043D098 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A1FC4927C457570043D098 /* AppDelegate.swift */; };
+		87A1FC4C27C457570043D098 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A1FC4B27C457570043D098 /* SceneDelegate.swift */; };
+		87A1FC5327C457580043D098 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87A1FC5227C457580043D098 /* Assets.xcassets */; };
+		87A1FC5627C457580043D098 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87A1FC5427C457580043D098 /* LaunchScreen.storyboard */; };
+		87A1FC6227C45C120043D098 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A1FC6027C45C120043D098 /* LoginViewController.swift */; };
+		87A1FC6327C45C120043D098 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87A1FC6127C45C120043D098 /* LoginViewController.xib */; };
+		87A285F827C84DD000EACBEC /* API Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A285F727C84DD000EACBEC /* API Service.swift */; };
+		87CA570627C840BB0050252E /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CA570527C840BB0050252E /* Model.swift */; };
+		A8CAAEE3944862A6C4CB517D /* Pods_alkemy_project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 442DE3DF52279277CA39D186 /* Pods_alkemy_project.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3D90BCD1F227738B276AB555 /* Pods-alkemy-project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-alkemy-project.release.xcconfig"; path = "Target Support Files/Pods-alkemy-project/Pods-alkemy-project.release.xcconfig"; sourceTree = "<group>"; };
+		442DE3DF52279277CA39D186 /* Pods_alkemy_project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_alkemy_project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8787941127C59231007A5003 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		8787943E27C5BA18007A5003 /* MoviesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesTableViewCell.swift; sourceTree = "<group>"; };
+		8787943F27C5BA18007A5003 /* MoviesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MoviesTableViewCell.xib; sourceTree = "<group>"; };
+		878F687A27C6E99700E450E5 /* FavoritesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesTableViewCell.swift; sourceTree = "<group>"; };
+		878F687B27C6E99700E450E5 /* FavoritesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavoritesTableViewCell.xib; sourceTree = "<group>"; };
+		878F687E27C6F36B00E450E5 /* MoviesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesTableViewController.swift; sourceTree = "<group>"; };
+		878F687F27C6F36B00E450E5 /* MoviesTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MoviesTableViewController.xib; sourceTree = "<group>"; };
+		878F688227C6F40700E450E5 /* FavoritesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesTableViewController.swift; sourceTree = "<group>"; };
+		878F688327C6F40700E450E5 /* FavoritesTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavoritesTableViewController.xib; sourceTree = "<group>"; };
+		878F688627C6F4C700E450E5 /* MovieDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
+		878F688727C6F4C700E450E5 /* MovieDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieDetailViewController.xib; sourceTree = "<group>"; };
+		878F688C27C70E9500E450E5 /* MoviesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewModel.swift; sourceTree = "<group>"; };
+		87A1FC4627C457570043D098 /* alkemy-project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "alkemy-project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87A1FC4927C457570043D098 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		87A1FC4B27C457570043D098 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		87A1FC5227C457580043D098 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		87A1FC5527C457580043D098 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		87A1FC5727C457580043D098 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87A1FC6027C45C120043D098 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		87A1FC6127C45C120043D098 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		87A285F727C84DD000EACBEC /* API Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "API Service.swift"; sourceTree = "<group>"; };
+		87CA570527C840BB0050252E /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		F73119851460F409F607717A /* Pods-alkemy-project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-alkemy-project.debug.xcconfig"; path = "Target Support Files/Pods-alkemy-project/Pods-alkemy-project.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87A1FC4327C457570043D098 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8CAAEE3944862A6C4CB517D /* Pods_alkemy_project.framework in Frameworks */,
+				878699CC27CAC11F00115726 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		663346DAE7A57D37E9103954 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F73119851460F409F607717A /* Pods-alkemy-project.debug.xcconfig */,
+				3D90BCD1F227738B276AB555 /* Pods-alkemy-project.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6D83BDF8DDAA0035963C2B64 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				442DE3DF52279277CA39D186 /* Pods_alkemy_project.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8787943927C5B96F007A5003 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				8787943E27C5BA18007A5003 /* MoviesTableViewCell.swift */,
+				8787943F27C5BA18007A5003 /* MoviesTableViewCell.xib */,
+				878F687A27C6E99700E450E5 /* FavoritesTableViewCell.swift */,
+				878F687B27C6E99700E450E5 /* FavoritesTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		878F688A27C70DF200E450E5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				878F688C27C70E9500E450E5 /* MoviesViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		878F688B27C70E2D00E450E5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				87CA570527C840BB0050252E /* Model.swift */,
+				87A285F727C84DD000EACBEC /* API Service.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		87A1FC3D27C457570043D098 = {
+			isa = PBXGroup;
+			children = (
+				87A1FC4827C457570043D098 /* alkemy-project */,
+				87A1FC4727C457570043D098 /* Products */,
+				663346DAE7A57D37E9103954 /* Pods */,
+				6D83BDF8DDAA0035963C2B64 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		87A1FC4727C457570043D098 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87A1FC4627C457570043D098 /* alkemy-project.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87A1FC4827C457570043D098 /* alkemy-project */ = {
+			isa = PBXGroup;
+			children = (
+				878F688B27C70E2D00E450E5 /* Model */,
+				87A1FC5D27C45B300043D098 /* View */,
+				878F688A27C70DF200E450E5 /* ViewModel */,
+				8787943927C5B96F007A5003 /* Cells */,
+				87A1FC5727C457580043D098 /* Info.plist */,
+				87A1FC4927C457570043D098 /* AppDelegate.swift */,
+				87A1FC4B27C457570043D098 /* SceneDelegate.swift */,
+				87A1FC5227C457580043D098 /* Assets.xcassets */,
+				87A1FC5427C457580043D098 /* LaunchScreen.storyboard */,
+			);
+			path = "alkemy-project";
+			sourceTree = "<group>";
+		};
+		87A1FC5D27C45B300043D098 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8787941127C59231007A5003 /* TabBarViewController.swift */,
+				87A1FC6027C45C120043D098 /* LoginViewController.swift */,
+				87A1FC6127C45C120043D098 /* LoginViewController.xib */,
+				878F687E27C6F36B00E450E5 /* MoviesTableViewController.swift */,
+				878F687F27C6F36B00E450E5 /* MoviesTableViewController.xib */,
+				878F688227C6F40700E450E5 /* FavoritesTableViewController.swift */,
+				878F688327C6F40700E450E5 /* FavoritesTableViewController.xib */,
+				878F688627C6F4C700E450E5 /* MovieDetailViewController.swift */,
+				878F688727C6F4C700E450E5 /* MovieDetailViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87A1FC4527C457570043D098 /* alkemy-project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87A1FC5A27C457580043D098 /* Build configuration list for PBXNativeTarget "alkemy-project" */;
+			buildPhases = (
+				F9844B70A2772D80A8465858 /* [CP] Check Pods Manifest.lock */,
+				87A1FC4227C457570043D098 /* Sources */,
+				87A1FC4327C457570043D098 /* Frameworks */,
+				87A1FC4427C457570043D098 /* Resources */,
+				2AC432CA89EAE20CDCEA3897 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "alkemy-project";
+			packageProductDependencies = (
+				878699CB27CAC11F00115726 /* Alamofire */,
+			);
+			productName = "alkemy-project";
+			productReference = 87A1FC4627C457570043D098 /* alkemy-project.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87A1FC3E27C457570043D098 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					87A1FC4527C457570043D098 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 87A1FC4127C457570043D098 /* Build configuration list for PBXProject "alkemy-project" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 87A1FC3D27C457570043D098;
+			packageReferences = (
+				878699CA27CAC11E00115726 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = 87A1FC4727C457570043D098 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87A1FC4527C457570043D098 /* alkemy-project */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87A1FC4427C457570043D098 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				878F688927C6F4C700E450E5 /* MovieDetailViewController.xib in Resources */,
+				87A1FC6327C45C120043D098 /* LoginViewController.xib in Resources */,
+				878F687D27C6E99700E450E5 /* FavoritesTableViewCell.xib in Resources */,
+				8787944127C5BA18007A5003 /* MoviesTableViewCell.xib in Resources */,
+				878F688127C6F36B00E450E5 /* MoviesTableViewController.xib in Resources */,
+				87A1FC5627C457580043D098 /* LaunchScreen.storyboard in Resources */,
+				87A1FC5327C457580043D098 /* Assets.xcassets in Resources */,
+				878F688527C6F40700E450E5 /* FavoritesTableViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2AC432CA89EAE20CDCEA3897 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-alkemy-project/Pods-alkemy-project-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-alkemy-project/Pods-alkemy-project-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-alkemy-project/Pods-alkemy-project-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9844B70A2772D80A8465858 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-alkemy-project-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87A1FC4227C457570043D098 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8787944027C5BA18007A5003 /* MoviesTableViewCell.swift in Sources */,
+				87A1FC6227C45C120043D098 /* LoginViewController.swift in Sources */,
+				878F688427C6F40700E450E5 /* FavoritesTableViewController.swift in Sources */,
+				87A285F827C84DD000EACBEC /* API Service.swift in Sources */,
+				87A1FC4A27C457570043D098 /* AppDelegate.swift in Sources */,
+				878F688027C6F36B00E450E5 /* MoviesTableViewController.swift in Sources */,
+				878F688827C6F4C700E450E5 /* MovieDetailViewController.swift in Sources */,
+				8787941227C59231007A5003 /* TabBarViewController.swift in Sources */,
+				87A1FC4C27C457570043D098 /* SceneDelegate.swift in Sources */,
+				87CA570627C840BB0050252E /* Model.swift in Sources */,
+				878F687C27C6E99700E450E5 /* FavoritesTableViewCell.swift in Sources */,
+				878F688D27C70E9500E450E5 /* MoviesViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		87A1FC5427C457580043D098 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87A1FC5527C457580043D098 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		87A1FC5827C457580043D098 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		87A1FC5927C457580043D098 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87A1FC5B27C457580043D098 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F73119851460F409F607717A /* Pods-alkemy-project.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "alkemy-project/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "marianobattaglia.alkemy-project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		87A1FC5C27C457580043D098 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D90BCD1F227738B276AB555 /* Pods-alkemy-project.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "alkemy-project/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "marianobattaglia.alkemy-project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87A1FC4127C457570043D098 /* Build configuration list for PBXProject "alkemy-project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87A1FC5827C457580043D098 /* Debug */,
+				87A1FC5927C457580043D098 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87A1FC5A27C457580043D098 /* Build configuration list for PBXNativeTarget "alkemy-project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87A1FC5B27C457580043D098 /* Debug */,
+				87A1FC5C27C457580043D098 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		878699CA27CAC11E00115726 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		878699CB27CAC11F00115726 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 878699CA27CAC11E00115726 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 87A1FC3E27C457570043D098 /* Project object */;
+}

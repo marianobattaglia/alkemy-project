@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController" customModule="alkemy_project" customModuleProvider="target">
+            <connections>
+                <outlet property="emailTextField" destination="p1z-66-AsG" id="1DG-Rh-SkX"/>
+                <outlet property="logInButton" destination="nfX-BV-Z82" id="Ttf-Kn-f7i"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bbB-uG-BA0">
+                    <rect key="frame" x="37" y="259" width="53" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="25" id="2Oe-Lo-NZ1"/>
+                        <constraint firstAttribute="width" constant="53" id="jQ5-iV-hVP"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Your e-mail" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="p1z-66-AsG">
+                    <rect key="frame" x="37" y="294" width="340" height="34"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="340" id="KW7-uw-ru6"/>
+                        <constraint firstAttribute="height" constant="34" id="Pvb-OM-atr"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Alkemy Movie" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XEL-od-vBg">
+                    <rect key="frame" x="82" y="206" width="250" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="1UK-m9-Cft"/>
+                        <constraint firstAttribute="width" constant="250" id="2V9-9K-1Qf"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LogIn Image" translatesAutoresizingMaskIntoConstraints="NO" id="0gK-bE-OvZ">
+                    <rect key="frame" x="137" y="54" width="140" height="140"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="140" id="99i-jD-b90"/>
+                        <constraint firstAttribute="height" constant="140" id="C7Y-FK-nGD"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nfX-BV-Z82">
+                    <rect key="frame" x="37" y="807" width="340" height="45"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="HZX-cO-hXC"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="tinted" title="Login Alkemy Movie" cornerStyle="capsule"/>
+                    <connections>
+                        <action selector="logInButtonTapped:" destination="-1" eventType="touchUpInside" id="lQK-lL-3n6"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="nfX-BV-Z82" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="37" id="D6x-ld-0UD"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="nfX-BV-Z82" secondAttribute="bottom" constant="10" id="DAy-2o-auj"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="nfX-BV-Z82" secondAttribute="trailing" constant="37" id="DF3-up-1BS"/>
+                <constraint firstItem="p1z-66-AsG" firstAttribute="top" secondItem="bbB-uG-BA0" secondAttribute="bottom" constant="10" id="Ffb-6G-M8p"/>
+                <constraint firstItem="bbB-uG-BA0" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="37" id="LJr-zt-Gy5"/>
+                <constraint firstItem="XEL-od-vBg" firstAttribute="top" secondItem="0gK-bE-OvZ" secondAttribute="bottom" constant="12" id="Mug-K0-JF9"/>
+                <constraint firstItem="0gK-bE-OvZ" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="PPN-ZN-bD0"/>
+                <constraint firstItem="p1z-66-AsG" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="37" id="QEk-Bn-o6d"/>
+                <constraint firstItem="bbB-uG-BA0" firstAttribute="top" secondItem="XEL-od-vBg" secondAttribute="bottom" constant="13" id="S0L-wd-9ni"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="p1z-66-AsG" secondAttribute="trailing" constant="37" id="Slk-5H-XFN"/>
+                <constraint firstItem="0gK-bE-OvZ" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="10" id="dyQ-Xb-Dmx"/>
+                <constraint firstItem="XEL-od-vBg" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="k3M-GD-niM"/>
+            </constraints>
+            <point key="canvasLocation" x="131.8840579710145" y="99.776785714285708"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="LogIn Image" width="800" height="800"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
