@@ -62,8 +62,8 @@ class FavoritesTableViewController: UIViewController, UITableViewDataSource, UIT
         cell.ratingLabel.text = "\(row.rate ?? Double())⭐️"
         cell.favoriteImageView.image = reloadImage(row)
         return cell
-        
     }
+    
     func filterMovies() -> [Movie] {
         let arrayOfFavorites = AppDelegate.getUserDefaultArrayStringForKey("moviesStored") ?? []
         let listOfMovies = viewModel.dataJson?.movies
