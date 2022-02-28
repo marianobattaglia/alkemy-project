@@ -11,28 +11,23 @@ Cada una de esas películas podrá ser seleccionada y se desplegará una nueva v
 En caso de que alguna consulta falle o algún listado esté vacío deberán mostrarse los correspondientes errores en pantalla.
 
 Requisitos técnicos
-  ● Alamofire para las peticiones.
-  ● Arquitectura MVVM.
-  ● Realización de vistas con xibs (no storyboards).
+- Alamofire para las peticiones.
+- Arquitectura MVVM.
+- Realización de vistas con xibs (no storyboards).
 
 ¿Qué se evaluará?
-  ● Consistencia de la aplicación: Bajo ningún punto de vista, la aplicación deberá cerrarse inesperadamente.
-  ● Diseños: Los diseños de las vistas solicitadas quedarán a criterio del desarrollador y deberán ser flexibles de acuerdo a las dimensiones de los dispositivos.
-  ● Experiencia de usuario: La aplicación deberá ser intuitiva, de fácil uso y los errores que se muestren en pantalla tendrán que ser de fácil interpretación.
-  ● Calidad de código: Deberá ser legible y de fácil manipulación. En lo posible,
-  que respete los estándares de la tecnología.
+- Consistencia de la aplicación: Bajo ningún punto de vista, la aplicación deberá cerrarse inesperadamente.
+- Diseños: Los diseños de las vistas solicitadas quedarán a criterio del desarrollador y deberán ser flexibles de acuerdo a las dimensiones de los dispositivos.
+- Experiencia de usuario: La aplicación deberá ser intuitiva, de fácil uso y los errores que se muestren en pantalla tendrán que ser de fácil interpretación.
+- Calidad de código: Deberá ser legible y de fácil manipulación. En lo posible, que respete los estándares de la tecnología.
 
 Adicionales
 En caso de que el desarrollador cuente con tiempo podrá incorporar al proyecto una o varias de las siguientes funcionalidades:
-  ● Mostrar la portada en la lista de películas.
-  ● La API posee un endpoint para evaluar una película determinada (ver The
-  Movie Database API). Agregar en la vista de detalle la posibilidad de evaluar
-  una película y actualizar la API con dicha información.
-  ● Una opción de “Favorito” para las películas. Al volver a entrar a la aplicación
-  debe mostrarse las películas que estaban marcadas como “Favorito” previamente.
-    ○ Agregar un TabBar:
-      ■ El primer tab será la lista de películas que se tiene actualmente.
-      ■ El segundo tab será la lista de las películas marcadas como favoritas.
-  ● Mostrar una pantalla inicial de login, donde se le pida al usuario ingresar un
-  correo de forma obligatoria para poder avanzar (validando su formato).
-  ● Pruebas unitarias.
+- Mostrar la portada en la lista de películas.
+- La API posee un endpoint para evaluar una película determinada (ver The Movie Database API). Agregar en la vista de detalle la posibilidad de evaluar una película y actualizar la API con dicha información.
+- Una opción de “Favorito” para las películas. Al volver a entrar a la aplicación debe mostrarse las películas que estaban marcadas como “Favorito” previamente.
+  - Agregar un TabBar:
+    - El primer tab será la lista de películas que se tiene actualmente. 
+    - El segundo tab será la lista de las películas marcadas como favoritas.
+  - Mostrar una pantalla inicial de login, donde se le pida al usuario ingresar un correo de forma obligatoria para poder avanzar (validando su formato).
+  - Pruebas unitarias.
